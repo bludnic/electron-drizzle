@@ -1,0 +1,9 @@
+appId: "electron.drizzle.app"
+files:
+  - node_modules
+  - dist
+  - index.html
+directories:
+  output: dist-electron
+buildDependenciesFromSource: true
+asar: false # For debugging purposes. Normally, this should be set to `true`.
