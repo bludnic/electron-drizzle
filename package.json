@@ -2,10 +2,14 @@
   "name": "electron-drizzle",
   "version": "1.0.0",
   "description": "Minimal Electron app with Drizzle ORM + SQLite",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
   "author": "bludnic",
   "license": "MIT",
   "devDependencies": {
+    "tsup": "^8.5.0",
     "typescript": "^5.9.2"
   }
 }
