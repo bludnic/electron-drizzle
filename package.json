@@ -4,12 +4,23 @@
   "description": "Minimal Electron app with Drizzle ORM + SQLite",
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx seed.ts"
   },
   "author": "bludnic",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.14",
+    "dotenv": "^17.2.1",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.5"
   }
 }
