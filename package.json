@@ -1,0 +1,8 @@
+{
+  "name": "electron-drizzle",
+  "version": "1.0.0",
+  "description": "Minimal Electron app with Drizzle ORM + SQLite",
+  "scripts": {},
+  "author": "bludnic",
+  "license": "MIT"
+}
