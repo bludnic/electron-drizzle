@@ -4,5 +4,8 @@
   "description": "Minimal Electron app with Drizzle ORM + SQLite",
   "scripts": {},
   "author": "bludnic",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
 }
