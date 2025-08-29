@@ -34,4 +34,3 @@ jobs:
           name: electron-drizzle
           path: |
             dist-electron/*.AppImage
-            dist-electron/*.snap
