@@ -3,6 +3,7 @@ files:
   - node_modules
   - dist
   - index.html
+  - drizzle # migrations
 directories:
   output: dist-electron
 buildDependenciesFromSource: true

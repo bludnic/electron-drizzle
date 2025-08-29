@@ -1,9 +1,10 @@
 import { app, BrowserWindow } from "electron";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { applyDatabaseMigrations } from "./utils/migrator.js";
+import { createProjectHomeDirIfMissing } from "./utils/project.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+createProjectHomeDirIfMissing();
+await applyDatabaseMigrations();
 
 function createWindow() {
   const win = new BrowserWindow({
