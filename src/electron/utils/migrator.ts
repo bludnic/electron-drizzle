@@ -4,7 +4,9 @@ import { migrate } from "drizzle-orm/libsql/migrator";
 import { APP_DIR, HOME_DIR } from "../consts.js";
 
 export async function applyDatabaseMigrations() {
-  const DB_URL = `file:${HOME_DIR}/dev.db`;
+  const DB_URL = process.env.DEV_MODE
+    ? process.env.DATABASE_URL!
+    : `file:${HOME_DIR}/dev.db`;
   const MIGRATIONS_DIR = path.join(APP_DIR, "drizzle");
 
   console.info(`🛠️ Starting DB migrations`);

@@ -48,13 +48,14 @@ chmod +x dist-electron/electron-drizzle-1.0.0.AppImage
 
 ## 🔧 Commands
 
-| Command                  | Action                  |
-| :----------------------- | :---------------------- |
-| `npm run build`          | Bundle source files     |
-| `npm run build:electron` | Build the Electron app  |
-| `npm run db:generate`    | Generate SQL migrations |
-| `npm run db:migrate`     | Apply DB migrations     |
-| `npm run db:seed`        | Seed the database       |
+| Command                  | Action                   |
+| :----------------------- | :----------------------- |
+| `npm run build`          | Bundle source files      |
+| `npm run build:electron` | Build the Electron app   |
+| `npm run dev`            | Run Electron in dev mode |
+| `npm run db:generate`    | Generate SQL migrations  |
+| `npm run db:migrate`     | Apply DB migrations      |
+| `npm run db:seed`        | Seed the database        |
 
 ## 🪪 License
 

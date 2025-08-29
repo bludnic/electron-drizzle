@@ -6,4 +6,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export const HOME_DIR = path.join(os.homedir(), ".electron-drizzle");
-export const APP_DIR = path.join(__dirname, "../");
+export const APP_DIR = process.env.DEV_MODE
+  ? process.cwd()
+  : path.join(__dirname, "../");
