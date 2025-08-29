@@ -7,4 +7,6 @@ files:
 directories:
   output: dist-electron
 buildDependenciesFromSource: true
+linux:
+  publish: [] # Skip publishing
 asar: false # For debugging purposes. Normally, this should be set to `true`.
