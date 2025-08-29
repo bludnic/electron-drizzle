@@ -1,6 +1,6 @@
 # ⚛️ Electron Drizzle Starter
 
-A minimal Electron app example with Drizzle ORM + SQLite integration.
+A minimal Electron app with Drizzle ORM and SQLite integration.
 
 - Automatically runs database migrations on startup.
 - Stores the database file at `$HOME/.electron-drizzle/dev.db`.
