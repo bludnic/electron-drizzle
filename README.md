@@ -14,7 +14,7 @@ A minimal Electron app with Drizzle ORM and SQLite integration.
 ### Clone the repository
 
 ```bash
-git clone http://github.com/bludnic/electron-drizzle
+git clone https://github.com/bludnic/electron-drizzle.git
 ```
 
 ### Environment variables
